@@ -1,0 +1,88 @@
+/* sbse phle logo ko center kro  */
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    /* background-image: linear-gradient(rgb(255, 255, 255), rgb(140, 139, 205)); */
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(109, 39, 339));
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+}
+
+h1{
+    margin: 5px 0px;
+    font-size: 40px;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    
+
+}
+
+.container {
+    max-width: 855px;
+    /* background-color: rgb(144, 144, 213); */
+    border: 2px solid black;
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    /* overflow-y: scroll; */
+    overflow-y: auto;
+    margin-bottom: 23px;
+
+}
+
+.message {
+    background-color: rgb(225, 222, 222);
+    width: 30%;
+    padding: 8px;
+    margin: 5px 12px;
+    border: 2px solid black;
+    border-radius: 18px;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+
+}
+
+.left {
+    float: left;
+    clear: both;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+#send-container{
+    text-align: center;
+    display: block;
+    margin: auto;
+    max-width: 855px;
+    /* width: 100%; */
+}
+
+#messageInp{
+    width: 91%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+    font-size: 20px;
+    
+}
+.btn{
+    width: 8%;
+    height: 34px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 2px solid black;
+
+}
+
